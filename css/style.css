@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: #121212;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 28px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #2D1B4E;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu a{
+    color: #E0E0E0;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: #00F5FF;
+    
+}
